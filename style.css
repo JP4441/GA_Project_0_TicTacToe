@@ -1,0 +1,93 @@
+* {
+  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+#boardx {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  cursor: pointer;
+}
+
+.right-border {
+  border-right: 0.2em solid black;
+}
+
+.bottom-border {
+  border-bottom: 0.2em solid black;
+}
+
+.tile {
+  color: black;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: black;
+}
+
+button {
+  margin-top: 60px;
+  background-color: transparent;
+  color: black;
+  border: black 1px solid;
+  padding: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.winnerX {
+  position: absolute;
+  left: 50%;
+  top: 69%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+}
+
+.winnerO {
+  position: absolute;
+  left: 50%;
+  top: 69%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+}
+
+.tie {
+  position: absolute;
+  left: 50%;
+  top: 69%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+}
+
+.hiddenX {
+  display: none;
+}
+
+.hiddenO {
+  display: none;
+}
+
+.hiddenT {
+  display: none;
+}
