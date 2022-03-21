@@ -30,10 +30,10 @@
 
 # Images
 
-|        Main Screen        |        Play X Wins        |
-| :-----------------------: | :-----------------------: |
-| ![](screenshots/main.png) | ![](screenshots/play.png) |
+|         Main Screen         |         Play X Wins         |
+| :-------------------------: | :-------------------------: |
+| ![](screenshots/image1.png) | ![](screenshots/image2.png) |
 
-|           It's a Tie!            |
-| :------------------------------: |
-| ![](screenshots/playCorrect.png) |
+|         It's a Tie!         |
+| :-------------------------: |
+| ![](screenshots/image3.png) |
